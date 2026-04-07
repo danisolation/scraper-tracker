@@ -1,0 +1,27 @@
+# ─── Core Framework ────────────────────────────────
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+pydantic-settings==2.7.1
+
+# ─── Database ──────────────────────────────────────
+sqlalchemy[asyncio]==2.0.36
+asyncpg==0.30.0
+alembic==1.14.1
+
+# ─── HTTP Client (async) ──────────────────────────
+httpx==0.28.1
+
+# ─── Browser Automation (fallback) ────────────────
+playwright==1.49.1
+
+# ─── Background Tasks ─────────────────────────────
+apscheduler==3.10.4
+
+# ─── Telegram Notifications ───────────────────────
+python-telegram-bot==21.9
+
+# ─── Utilities ─────────────────────────────────────
+python-dotenv==1.0.1
+tenacity==9.0.0
+fake-useragent==2.0.3
